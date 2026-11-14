@@ -51,3 +51,13 @@ All data and findings are synthetic. No customer behavior, seasonality, refunds,
 - `sql/analysis.sql` — RFM and Pareto queries
 - `data/transactions.csv` — generated input data
 - `outputs/` — generated customer and segment summaries
+## Sample findings
+All values below come from the synthetic dataset and are for demonstration only.
+- The 36 highest-revenue customers (20% of the sample) contribute **39.45%** of gross revenue. The sample does not follow an assumed 80/20 split.
+- **Loyal Customers** and **Champions** together contribute **63.75%** of revenue ($38,571.81) across 73 customers (40.6% of the sample).
+- **Need Attention** is the largest group at 67 customers (37.2%); it contributes 16.97% of revenue. **At Risk / High Frequency** contains 17 customers and 9.15% of revenue.
+These segments can guide investigation: consider retention tests for Loyal Customers and Champions, and review high-frequency customers with stale purchases for reactivation opportunities. Validate profitability, margins, and incremental impact before acting on real customer data.
+### Shareable charts
+![Gross revenue by RFM segment](outputs/segment_revenue.png)
+![Cumulative customer revenue concentration](outputs/revenue_concentration.png)
+To regenerate these PNGs, run `python create_visuals.py` after `python analyze.py`; this needs matplotlib.
