@@ -10,7 +10,7 @@ Which customer groups contribute the most revenue, and where should retention an
 
 ## Dataset and tools
 
-- `data/transactions.csv`: 180 synthetic customers and 1,027 completed orders, dated between 2025-01-01 and 2026-10-31.
+- `data/transactions.csv`: 180 synthetic customers and 1,367 completed orders, dated between 2025-01-01 and 2026-10-31.
 - SQLite 3 SQL: CTEs, `NTILE`, windowed running sums, and conditional aggregation.
 - Reference date for recency: **2026-11-01**.
 
