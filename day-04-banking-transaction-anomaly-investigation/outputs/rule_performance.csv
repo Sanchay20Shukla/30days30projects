@@ -1,0 +1,5 @@
+rule_name,flagged_transactions,injected_anomalies_caught
+Large amount,70,70
+Velocity burst,30,30
+Country mismatch,152,45
+Overnight hour,45,45
