@@ -1,0 +1,25 @@
+product_id,category,abc_tier,selected_model,lead_time_days,forecast_demand_during_lead_time,safety_stock_units,reorder_point_units,on_hand_units,on_order_units,inventory_position_units,minimum_order_qty,suggested_order_qty
+SKU001,Pantry,A,weekday_mean_8w,6,350.12,41,392,247,0,247,12,156
+SKU002,Household,A,weekday_mean_8w,7,327.38,35,363,289,61,350,12,24
+SKU003,Personal Care,C,weekday_mean_8w,4,103.12,15,119,137,0,137,12,0
+SKU004,Snacks,C,weekday_mean_8w,7,448.75,39,488,318,0,318,24,192
+SKU005,Pantry,A,weekday_mean_8w,5,53.0,7,60,80,0,80,12,0
+SKU006,Household,C,weekday_mean_8w,8,473.73,29,503,360,15,375,24,144
+SKU007,Personal Care,B,weekday_mean_8w,7,146.62,17,164,43,0,43,24,144
+SKU008,Snacks,B,weekday_mean_8w,10,322.44,29,352,75,0,75,12,288
+SKU009,Pantry,B,trailing_mean_28d,11,186.09,16,203,28,0,28,6,180
+SKU010,Household,C,weekday_mean_8w,4,198.0,23,221,222,0,222,6,0
+SKU011,Personal Care,C,weekday_mean_8w,3,197.88,27,225,370,32,402,6,0
+SKU012,Snacks,A,weekday_mean_8w,3,176.38,23,200,159,58,217,12,0
+SKU013,Pantry,A,weekday_mean_8w,13,253.84,20,274,173,0,173,6,102
+SKU014,Household,A,weekday_mean_8w,12,837.53,68,906,538,0,538,24,384
+SKU015,Personal Care,A,weekday_mean_8w,6,391.88,40,432,80,0,80,6,354
+SKU016,Snacks,C,weekday_mean_8w,3,90.0,14,104,140,0,140,6,0
+SKU017,Pantry,C,weekday_mean_8w,13,188.97,14,203,42,22,64,24,144
+SKU018,Household,A,seasonal_naive_7d,10,496.0,36,532,338,0,338,6,198
+SKU019,Personal Care,C,weekday_mean_8w,7,462.5,43,506,478,0,478,6,30
+SKU020,Snacks,B,weekday_mean_8w,3,144.62,20,165,66,0,66,12,108
+SKU021,Pantry,B,weekday_mean_8w,3,58.38,8,67,36,0,36,6,36
+SKU022,Household,C,weekday_mean_8w,5,355.5,43,399,390,26,416,6,0
+SKU023,Personal Care,A,weekday_mean_8w,13,297.27,23,321,167,0,167,24,168
+SKU024,Snacks,C,weekday_mean_8w,9,171.48,18,190,64,0,64,6,126

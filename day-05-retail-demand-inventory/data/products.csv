@@ -1,0 +1,25 @@
+product_id,category,abc_tier,unit_cost,avg_daily_demand,lead_time_days,on_hand_units,on_order_units,minimum_order_qty
+SKU001,Pantry,A,7.66,48.24,6,247,0,12
+SKU002,Household,A,23.83,33.89,7,289,61,12
+SKU003,Personal Care,C,26.88,17.18,4,137,0,12
+SKU004,Snacks,C,8.86,54.54,7,318,0,24
+SKU005,Pantry,A,17.33,9.06,5,80,0,12
+SKU006,Household,C,9.38,43.45,8,360,15,24
+SKU007,Personal Care,B,27.71,16.3,7,43,0,24
+SKU008,Snacks,B,3.96,25.13,10,75,0,12
+SKU009,Pantry,B,12.46,12.86,11,28,0,6
+SKU010,Household,C,18.94,36.54,4,222,0,6
+SKU011,Personal Care,C,10.1,47.04,3,370,32,6
+SKU012,Snacks,A,15.67,41.7,3,159,58,12
+SKU013,Pantry,A,10.94,14.58,13,173,0,6
+SKU014,Household,A,15.6,51.71,12,538,0,24
+SKU015,Personal Care,A,3.78,52.2,6,80,0,6
+SKU016,Snacks,C,8.41,20.94,3,140,0,6
+SKU017,Pantry,C,26.12,10.51,13,42,22,24
+SKU018,Household,A,14.61,33.75,10,338,0,6
+SKU019,Personal Care,C,7.79,52.15,7,478,0,6
+SKU020,Snacks,B,24.89,36.56,3,66,0,12
+SKU021,Pantry,B,22.76,13.91,3,36,0,6
+SKU022,Household,C,19.75,51.33,5,390,26,6
+SKU023,Personal Care,A,13.45,18.51,13,167,0,24
+SKU024,Snacks,C,23.03,16.01,9,64,0,6

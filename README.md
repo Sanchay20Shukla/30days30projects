@@ -9,8 +9,9 @@ A portfolio challenge moving from advanced SQL and business analytics through Po
 | 2 | [Customer RFM Segmentation & Revenue Concentration](day-02-customer-rfm-segmentation/) | SQL CTEs, `NTILE`, window functions, Pareto analysis |
 | 3 | [SaaS Customer Retention & Cohort Analysis](day-03-saas-retention-cohorts/) | SQL cohort matrices, product retention, subscription churn, MRR |
 | 4 | [Banking Transaction Anomaly Investigation](day-04-banking-transaction-anomaly-investigation/) | SQL window functions, explainable risk scoring, alert review |
+| 5 | [Retail Demand Forecasting & Inventory Replenishment](day-05-retail-demand-inventory/) | Time-based backtesting, forecast baselines, SQL summaries, reorder planning |
 
-Each project folder contains its source data (synthetic where noted), reproducible code, analysis outputs, and a project README covering assumptions, data checks, and limitations. See the [Day 2](day-02-customer-rfm-segmentation/LINKEDIN_POST.md), [Day 3](day-03-saas-retention-cohorts/LINKEDIN_POST.md), and [Day 4](day-04-banking-transaction-anomaly-investigation/LINKEDIN_POST.md) LinkedIn post drafts.
+Each project folder contains its source data (synthetic where noted), reproducible code, analysis outputs, and a project README covering assumptions, data checks, and limitations. See the [Day 2](day-02-customer-rfm-segmentation/LINKEDIN_POST.md), [Day 3](day-03-saas-retention-cohorts/LINKEDIN_POST.md), [Day 4](day-04-banking-transaction-anomaly-investigation/LINKEDIN_POST.md), and [Day 5](day-05-retail-demand-inventory/LINKEDIN_POST.md) LinkedIn post drafts.
 
 ## Day 2 quick start
 
@@ -29,6 +30,8 @@ python analyze.py
 python create_visuals.py
 ```
 
+Day 2 and Day 3 use deterministic synthetic datasets. Their sample metrics are demonstrations and do not describe real customers.
+
 ## Day 4 quick start
 
 ```bash
@@ -38,4 +41,15 @@ python analyze.py
 python create_visuals.py
 ```
 
-Day 2 and Day 3 use deterministic synthetic datasets. Their sample metrics are demonstrations and do not describe real customers. Day 4 also uses synthetic data; its screening results are educational examples, not estimates of real-world fraud detection performance.
+Day 4 also uses deterministic synthetic data. Its screening metrics are educational examples, not estimates of real-world fraud detection performance.
+
+## Day 5 quick start
+
+```bash
+cd day-05-retail-demand-inventory
+python generate_data.py
+python analyze.py
+python create_visuals.py
+```
+
+Day 5 also uses deterministic synthetic data. Its holdout metrics and reorder quantities are educational examples, not real demand forecasts or purchase instructions.

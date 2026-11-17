@@ -1,0 +1,9 @@
+category,promo_flag,product_days,units_sold,avg_units_per_product_day
+Household,0,2057,91965,44.71
+Household,1,133,7802,58.66
+Pantry,0,2066,39281,19.01
+Pantry,1,124,2707,21.83
+Personal Care,0,2060,72322,35.11
+Personal Care,1,130,5952,45.78
+Snacks,0,2080,70322,33.81
+Snacks,1,110,4379,39.81

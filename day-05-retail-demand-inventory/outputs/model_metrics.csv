@@ -1,0 +1,5 @@
+model,test_days,mae_units_per_product_day,wape_pct,bias_pct
+seasonal_naive_7d,1464,8.22,20.36,-2.4
+trailing_mean_28d,1464,7.566,18.74,-4.81
+weekday_mean_8w,1464,6.882,17.05,-9.87
+validation_selected_by_sku,1464,6.969,17.27,-9.44
