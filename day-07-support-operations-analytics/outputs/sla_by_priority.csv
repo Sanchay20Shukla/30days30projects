@@ -1,0 +1,4 @@
+priority,total_tickets,resolved_tickets,resolution_sla_met_pct,avg_resolution_hours
+High,1085,1033,29.04,14.66
+Medium,3171,3015,52.31,27.89
+Low,1744,1661,68.57,64.65

@@ -1,0 +1,5 @@
+channel,total_tickets,avg_first_response_hours,response_sla_met_pct,avg_customer_rating
+Email,2033,5.98,38.37,3.85
+Chat,1908,0.81,97.17,4.04
+Web,1030,4.49,52.52,3.87
+Phone,1029,0.97,96.11,4.0
