@@ -10,8 +10,9 @@ A portfolio challenge moving from advanced SQL and business analytics through Po
 | 3 | [SaaS Customer Retention & Cohort Analysis](day-03-saas-retention-cohorts/) | SQL cohort matrices, product retention, subscription churn, MRR |
 | 4 | [Banking Transaction Anomaly Investigation](day-04-banking-transaction-anomaly-investigation/) | SQL window functions, explainable risk scoring, alert review |
 | 5 | [Retail Demand Forecasting & Inventory Replenishment](day-05-retail-demand-inventory/) | Time-based backtesting, forecast baselines, SQL summaries, reorder planning |
+| 6 | [Customer Churn Analytics](day-06-customer-churn-analytics/) | SQL churn summaries, logistic regression, holdout evaluation, risk deciles |
 
-Each project folder contains its source data (synthetic where noted), reproducible code, analysis outputs, and a project README covering assumptions, data checks, and limitations. See the [Day 2](day-02-customer-rfm-segmentation/LINKEDIN_POST.md), [Day 3](day-03-saas-retention-cohorts/LINKEDIN_POST.md), [Day 4](day-04-banking-transaction-anomaly-investigation/LINKEDIN_POST.md), and [Day 5](day-05-retail-demand-inventory/LINKEDIN_POST.md) LinkedIn post drafts.
+Each project folder contains its source data (synthetic where noted), reproducible code, analysis outputs, and a project README covering assumptions, data checks, and limitations. See the [Day 2](day-02-customer-rfm-segmentation/LINKEDIN_POST.md), [Day 3](day-03-saas-retention-cohorts/LINKEDIN_POST.md), [Day 4](day-04-banking-transaction-anomaly-investigation/LINKEDIN_POST.md), [Day 5](day-05-retail-demand-inventory/LINKEDIN_POST.md), and [Day 6](day-06-customer-churn-analytics/LINKEDIN_POST.md) LinkedIn post drafts.
 
 ## Day 2 quick start
 
@@ -53,3 +54,14 @@ python create_visuals.py
 ```
 
 Day 5 also uses deterministic synthetic data. Its holdout metrics and reorder quantities are educational examples, not real demand forecasts or purchase instructions.
+
+## Day 6 quick start
+
+```bash
+cd day-06-customer-churn-analytics
+python generate_data.py
+python analyze.py
+python create_visuals.py
+```
+
+Day 6 uses deterministic synthetic customer data. Churn scores and metrics are demonstrations, not estimates for real customers or production performance.
