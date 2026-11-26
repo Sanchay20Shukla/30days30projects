@@ -1,0 +1,3 @@
+variant,users,conversions,conversion_rate_pct,revenue,revenue_per_user,revenue_per_order
+Control,12000,1155,9.625,86590.0,7.22,74.97
+Treatment,12000,1348,11.233,93555.68,7.8,69.4

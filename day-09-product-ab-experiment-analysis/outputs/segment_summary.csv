@@ -1,0 +1,5 @@
+device_type,variant,users,conversions,conversion_rate_pct,revenue_per_user
+Desktop,Control,5484,631,11.506,8.62
+Desktop,Treatment,5502,655,11.905,8.16
+Mobile,Control,6516,524,8.042,6.03
+Mobile,Treatment,6498,693,10.665,7.49

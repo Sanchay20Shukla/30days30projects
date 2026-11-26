@@ -1,0 +1,2 @@
+control_users,treatment_users,control_conversions,treatment_conversions,control_conversion_rate,treatment_conversion_rate,absolute_lift_pp,relative_lift_pct,lift_ci_low_pp,lift_ci_high_pp,z_statistic,p_value_two_sided,sample_ratio_chi2,sample_ratio_p_value
+12000,12000,1155,1348,0.09625,0.11233333333333333,1.6083333333333325,16.7099567099567,0.8352288696490782,2.3814377970175866,4.076088237165694,4.579964545809367e-05,0.0,1.0

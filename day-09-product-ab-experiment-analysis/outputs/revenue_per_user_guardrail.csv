@@ -1,0 +1,2 @@
+control_revenue_per_user,treatment_revenue_per_user,absolute_change_per_user,relative_change_pct,change_ci_low,change_ci_high,welch_t_statistic,p_value_two_sided
+7.215833333333333,7.796306666666667,0.5804733333333338,8.044439311698817,-0.052606902589367066,1.2135535692560349,1.797188020008435,0.07231834471659798
